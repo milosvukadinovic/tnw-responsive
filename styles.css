@@ -269,45 +269,116 @@
         display: block;
         float: left;
     }
-    /* Sections Section */
-    .sections{
-        margin-bottom: 40px;
+    #cat > li {
+        width: 33.33%;
+        height: 100%;
+        background: #FFF;
+        float: left;
+        min-height: 700px;
+        padding: 10px;
+    }
+    #central h2, #cat h2 {
+        color: #F42;
+        font-size: 28px;
+        line-height: 1.1;
+        letter-spacing: -.015em;
+        font-weight: 700;
+        font-family: Avalon,sans-serif;
+        margin-bottom: 24px;
+    }
+    .li-img {
+        height: 275px;
+        position: relative;
+        background-size: 100% 100%;
+        background-size: cover;
+        background-position: center center;
+        top: 0;
+    }
+    .item-1 {
+        background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/whatsapp-368x276.jpg) no-repeat;
+    }
+    .item-2 {
+        background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Apple-Watch-Series-3-hed-368x276.jpg);
+    }
+    .inside-li {
+        position: relative;
+        bottom: -45%;
+        color: #FFF;
+        margin-left: 8px;
+        margin-right: 45px;
+    }
+    .thumb-2 {
+        background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/iPhone-X-fast-charge.jpg);
+    }
+    .item-3 {
+        background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/algae-img-001-368x276.jpg);
+    }
+    .thumb-3 {
+        background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/autonomous.jpg);
+    }
+    .item-4 {
+        background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/PETA-368x276.jpg);
+    }
+    .thumb-4 {
+        background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/08/xJaXOiV-1.jpg);
+    }
+    .item-5 {
+        background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/what-the-fork-368x276.png);
+    }
+    .thumb-5 {
+        background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/ecommerce-2140603_1920-1.jpg);
+    }
+    .item-6 {
+        background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/file-20170831-22397-1vtyfmc-1-368x276.jpg);
+    }
+    .thumb-6 {
+        background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/pornhub-iphone-apple.jpg);
     }
 
-    .section-popular{
-        height: 0;
-        padding-top: 75%;
+    .sub-div {
+        background-color: rgba(255,68,34,.06);
+        height: 96px;
+        padding-left: 20px;
+        margin: 4px 0;
+        color: #F42;
+    }
+    .latest-thumb {
+        background-position: center center;
+        background-size: cover;
+        height: 96px;
+        width: 96px;
+        display: block;
+        float: right;
+    }
+    .thumb-1 {
+        background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/01/Trello-hed-2.jpg);
+    }
+    #cat li li {
+        padding: 6px 0 6px 20px;
         position: relative;
+        border-bottom: 1px solid #EEE;
         width: 100%;
+        display: inline-block;
     }
-    .section-popular-trigger{
-            background: transparent url(../img/image-gradient.png) no-repeat;
-            background-size: 100% 100%;
-            bottom: 0;
-            left: 0;
-            position: absolute;
-            top: 0;
-            right: 0;
-            z-index: 2;
-    }
-    .section-popular-header{
-            bottom: 0;
-            left: 0;
-            padding: 14px;
-            position: absolute;
-            right: 0;
-            z-index: 3
-    }
-    .section-popular-section{
-        color: #fff;
-        font-size: 13px;
-        pointer-events: none;
-    }
-    .section-popular-byline{
-        color: hsla(0, 0%, 100%, .6);
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 16px;
+    
+    /* /* ul li {
+        list-style: none;
+        display: inline-block;
+    } */
+    /* #cat li{
+        display: inline-block;
+    } */ 
+     
+    #cat li li:before {
+        background-color: #F42;
+        border-radius: 50%;
+        content: '';
+        display: block;
+        height: 4px;
+        left: 4px;
+        position: absolute;
+        top: 14px;
+        width: 4px;
     }
  }
 
@@ -322,3 +393,26 @@
  *{
      box-sizing: border-box;
  }
+ul{
+    margin:0;
+    padding:0;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
