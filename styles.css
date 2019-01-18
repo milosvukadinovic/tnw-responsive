@@ -135,7 +135,7 @@
         width: 33.33%;
         height: 100%;
         float: right;
-        /* background-color: rebeccapurple; */
+       
     }
     .small{
             height: 50%;
@@ -209,7 +209,6 @@
     }
 
     .latest-news{
-        border: solid 1px red;
         padding-top: 36px;
     }
     .row{
@@ -269,6 +268,14 @@
         display: block;
         float: left;
     }
+
+
+    /*  */
+    #cat{
+        padding: 0;
+        margin-top: 20px;
+      
+    }
     #cat > li {
         width: 33.33%;
         height: 100%;
@@ -277,7 +284,8 @@
         min-height: 700px;
         padding: 10px;
     }
-    #central h2, #cat h2 {
+
+    #cat h2 {
         color: #F42;
         font-size: 28px;
         line-height: 1.1;
@@ -286,6 +294,7 @@
         font-family: Avalon,sans-serif;
         margin-bottom: 24px;
     }
+
     .li-img {
         height: 275px;
         position: relative;
@@ -294,6 +303,7 @@
         background-position: center center;
         top: 0;
     }
+
     .item-1 {
         background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/whatsapp-368x276.jpg) no-repeat;
     }
@@ -353,32 +363,35 @@
     .thumb-1 {
         background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/01/Trello-hed-2.jpg);
     }
-    #cat li li {
+    .cat-li {
         padding: 6px 0 6px 20px;
         position: relative;
         border-bottom: 1px solid #EEE;
         width: 100%;
         display: inline-block;
-    }
-    
-    /* /* ul li {
         list-style: none;
-        display: inline-block;
-    } */
-    /* #cat li{
-        display: inline-block;
-    } */ 
+        list-style-type: none;
+    }
      
-    #cat li li:before {
+        .section-headline::before {
         background-color: #F42;
         border-radius: 50%;
         content: '';
-        display: block;
+        display: inline-block;
         height: 4px;
         left: 4px;
-        position: absolute;
         top: 14px;
         width: 4px;
+    } 
+    .section-headline{
+        border-bottom: 1px solid #eee;
+        padding-bottom: 8px;
+        margin-left: 20px
+    }
+    .headlines{
+        padding-left: 0;
+        list-style: none;
+        list-style-type: none;
     }
  }
 
@@ -393,17 +406,18 @@
  *{
      box-sizing: border-box;
  }
-ul{
+
+/* ul{
     margin:0;
     padding:0;
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
-    margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
-}
+    
+} */
 h4 {
     display: block;
     margin-block-start: 1.33em;
