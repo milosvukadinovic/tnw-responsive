@@ -1,305 +1,324 @@
+ @media (min-width: 600px) {
+     .navbar-ul {
+         background: #131313;
+         display: block;
+         font-size: 13px;
+         font-weight: 500;
+         line-height: 32px;
+         max-height: 32px;
+         position: relative;
+         z-index: 2;
+         margin: 0;
+     }
 
+     nav {
+         margin-bottom: 15px;
+     }
 
+     div {
+         display: block;
+     }
 
+     .navbar-ul li {
+         display: inline;
+     }
 
- @media (min-width: 600px){
-.navbar-ul {
+     .navbar-ul li a {
+         text-decoration: none;
+         color: white;
+         font-size: 110%;
+     }
 
-    
-    background: #131313;
-    display: block;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 32px;
-    max-height: 32px;
-    position: relative;
-    z-index: 2;
-    margin:0;
-}
-nav{
-    margin-bottom: 15px;
-}
-div {
-    display: block;
-}
-.navbar-ul li{
-    display: inline;
-}
-.navbar-ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 110%;
-}
-.navbar-div{
-    background: #ffffff;
-    display: block;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 32px;
-    max-height: 45px;
-    position: relative;
-    z-index: 2;
-    margin:0;
-    height: 45px;
-}
-.navbar-div ul li{
-    display: inline;
-}
-.navbar-div ul li a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    letter-spacing: 1px;
-    word-spacing:6px;
+     .navbar-div {
+         background: #ffffff;
+         display: block;
+         font-size: 13px;
+         font-weight: 500;
+         line-height: 32px;
+         max-height: 45px;
+         position: relative;
+         z-index: 2;
+         margin: 0;
+         height: 45px;
+     }
 
-}
-.navbar-div ul{
-    margin:0;
-    padding-top:5px;
-}
-}
-body{
-    margin:0;
-    background:rgb(226, 226, 225);
-}
+     .navbar-div ul li {
+         display: inline;
+     }
 
-.container{
-    width: 100%;
-    background: #80f442;
-    height: 100%;
-    background: linear-gradient(to right bottom, rgb(240, 37, 37), rgba(22, 22, 22, 0)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Google-EU-Copyright-Directive-hed-796x419.jpg);
-    background-size: cover;
-    float: left;
-    position: relative;
-}
-.top-articles{
-    
-    height: 75vh;
-    max-height: 560px;
-    padding: 5px;
+     .navbar-div ul li a {
+         text-decoration: none;
+         color: rgb(0, 0, 0);
+         font-size: 16px;
+         letter-spacing: 1px;
+         word-spacing: 6px;
 
-}
-.date{
-    position: absolute;
-    right: 7px;
-    top: 7px;
-    color: #fff;
-}
-.logo-big{
-    background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 5;
-    width: 66%;
-    max-width: 50%;
-    height: 100%;
-    max-height: 112px;
-}
-.text{
-    position: absolute;
-    bottom: 7px;
-    left: 7px;
-    font-size: inherit;
-}
-.top-h2 {
-    color: #fff;
-    font-weight: 500;
-    letter-spacing: .04em;
-    line-height: 1.5;
-    font-size: 1em;
-    margin: 0;
-}
-.top-h1 {
-    color: #fff;
-    font-size: 3em;
-    line-height: 1;
-    font-weight: 700;
-    font-family: Avalon,sans-serif;
-    margin: 0;
-}
-.clock {
-    background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1491314472970) no-repeat;
-    background-position: -160px -160px;
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    vertical-align: text-bottom;
-    margin: 0 5px;
-}
-.fork {
-    background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1491314472970) no-repeat;
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    background-position: -864px -864px;
-    vertical-align: text-bottom;
-    margin: 0 5px;
-}
-.top-h3 {
-    font-size: 0.9em;
-    line-height: 20px;
-    color: rgba(255,255,255,.6);
-}
+     }
 
-#smaller-articles:first-child {
-    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Twitter-bug-796x418.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-clip: content-box;
-    padding-bottom: 5px;
-    float:right;
-}
-.small{
-    height: 50%;
-    padding-left: 5px;
-    position: relative;
-}
-.details {
-    position: absolute;
-    bottom: 7px;
-    left: 7px;
-    font-size: inherit;
-}
-#smaller-articles{
-    width: 33.33%;
-    height: 100%;
-    float: right;
-}
+     .navbar-div ul {
+         margin: 0;
+         padding-top: 5px;
+     }
 
+     .top{
+         background: #eaecef;
+         height: 75vh;
+         max-height: 560px;
+         padding: 5px;
+     }
+     .top-articles {
+         background: #eaecef;
+         height: 75vh;
+         max-height: 560px;
+         padding: 5px;
+     }
+     .top-articles::after{
+         content: '';
+         display: block;
+         clear: both;
+     }
 
+     .article-big {
+         width: 66.66%;
+         background: #80f442;
+         height: 100%;
+         background: linear-gradient(to right bottom, rgba(224, 81, 15, 1), rgba(22, 22, 22, 0)),
+             url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Older-Person-796x398.jpg);
+         background-size: cover;
+         float: left;
+         position: relative;
+     }
 
+     .smaller-articles {
+         width: 33.33%;
+         height: 100%;
+         float: right;
+     }
+     .smaller-articles::after{
+         content: '';
+         display: block;
+         clear: both;
+     }
+     
+     .logo-big .date {
+         display: block;
+     }
 
+     .date {
+         position: absolute;
+         right: 7px;
+         top: 7px;
+         /* display: none; */
+         color: #fff;
+     }
 
+     .logo-big {
+         background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
+         position: absolute;
+         top: 20px;
+         left: 20px;
+         z-index: 5;
+         width: 100%;
+         max-width: 50%;
+         height: 100%;
+         max-height: 112px;
+     }
 
+     .text {
+         position: absolute;
+         bottom: 7px;
+         left: 7px;
+         font-size: inherit;
+     }
 
+    .smaller-articles {
+        width: 33.33%;
+        height: 100%;
+        float: right;
+        /* background-color: rebeccapurple; */
+    }
+    .small{
+            height: 50%;
+            padding-left: 5px;
+            position: relative;
+    }
+    #first{
+            background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-796x398.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-clip: content-box;
+            padding-bottom: 5px;
+    }
+    #second{
+            background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/08/Terminator-3-796x398.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-clip: content-box;
+    }
+    .details{
+        position: absolute;
+        bottom: 7px;
+        left: 7px;
+        font-size: inherit;
+    }
+    .top-h2{
+        color: #fff;
+        font-weight: 500;
+        letter-spacing: .04em;
+        line-height: 1.5;
+        font-size: 1em;
+        margin: 0;
+    }
+    .top-h1{
+        color: #fff;
+        font-size: 3em;
+        line-height: 1;
+        font-weight: 700;
+        font-family: Avalon,
+        sans-serif;
+        margin: 0;
+    }
+    .top-h3{
+        font-size: 0.9em;
+        line-height: 20px;
+        color: rgba(255, 255, 255, .6);
+    }
+    .clock{
+        background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1491314472970) no-repeat;
+        background-position: -160px -160px;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        vertical-align: text-bottom;
+        margin: 0 5px;
+    }
+    .fork{
+            background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1491314472970) no-repeat;
+            width: 16px;
+            height: 16px;
+            display: inline-block;
+            background-position: -864px -864px;
+            vertical-align: text-bottom;
+            margin: 0 5px;
+    }
+    /* Latest News Section */
+    .wrapper{
+            margin: 0 auto;
+            max-width: 1192px;
+            padding: 0 20px;
+    }
 
+    .latest-news{
+        border: solid 1px red;
+        padding-top: 36px;
+    }
+    .row{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin:  8px;
+        list-style-type: none;
+        padding-left: 0px;
+    }
+    .row ul li{
+        padding: 12px;
+    }
+    .col-max{
+        flex-basis: 25%;
+        max-width: 25%;
+        padding: 8px;
+    }
+    .story-image{
+        background-color: #000;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        height: 0;
+        overflow: hidden;
+        padding-top: 50%;
+        width: 100%;
+        margin-bottom: 8px;
+        position: relative;
+    }
+    .story-title{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+        margin-bottom: 1px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+    .story-byline{
+        overflow: hidden;
+        zoom: 1;
+        color: #aaa;
+        font-size: 12px;
+        line-height: 18px;
+        padding-top: 4px;
+        padding-left: 0px;
+    }
+    .story-byline li{
+        display: block;
+        float: left;
+    }
+    /* Sections Section */
+    .sections{
+        margin-bottom: 40px;
+    }
 
-/*
-li {
-    display: inline;
-    color:rgb(199, 199, 199);
-}
-main{
-    height: 2000px;
-}
-h5{
-    font-family: Shentox,sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: .04em;
-    line-height: 1.5;
-}
-section{
-    height: 400px;
-    padding-top:30px;
-    padding-left:20px;
-}
-article{
-    height: 400px;
-}
+    .section-popular{
+        height: 0;
+        padding-top: 75%;
+        position: relative;
+        width: 100%;
+    }
+    .section-popular-trigger{
+            background: transparent url(../img/image-gradient.png) no-repeat;
+            background-size: 100% 100%;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 2;
+    }
+    .section-popular-header{
+            bottom: 0;
+            left: 0;
+            padding: 14px;
+            position: absolute;
+            right: 0;
+            z-index: 3
+    }
+    .section-popular-section{
+        color: #fff;
+        font-size: 13px;
+        pointer-events: none;
+    }
+    .section-popular-byline{
+        color: hsla(0, 0%, 100%, .6);
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+ }
 
-.mag-glass{
-    float:right;
-}
-.background-article{
-    width:796px;
-    height:419px;
-    margin-left:0;
-}
-.cover-trigger{
-    width:796px;
-    height:419px;
-    transition: background-color .4s ease;
-    background: rgba(0,0,0,.25) url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png) no-repeat;
-    background-size: 100% 100%;
-    display: block;
-    will-change: background-color;
-    z-index: 2;
-    -webkit-transition: background-color .4s ease;
-    position: absolute;
-    bottom: 4px;
-    top: 106px;
-    right: 1px;
-    left: 20px;
-}
-.cover-gradient{
-    width:796px;
-    height:419px;
-    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
-    background-position: 0 0; 
-    background-size: cover;
-    mix-blend-mode: lighten;
-    pointer-events: none;
-    position: absolute;
-    bottom: 4px;
-    top: 106.5px;
-    right: 1px;
-    left: 20px;
-    z-index: 4;
-}
-.cover-logo{
-    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
-    background-size: contain;
-    max-width: 50%;
-    height: 100%;
-    max-height: 112px;
-    line-height: 1;
-    pointer-events: none;
-    text-align: right;
-    bottom: 4px;
-    top: 120px;
-    right: 1px;
-    left: 30px;
-    position: absolute;
-    z-index: 7;
-
-}
-.cover-date{
-    color: #fff;
-    position: absolute;
-    bottom: 4px;
-    top: 120px;
-    right: 1px;
-    left: 620px;
-    z-index: 7;
-}
-.cover-header{
-    bottom: -10px;
-    left: 40px;
-    padding-top: 14px;
-    padding-left: 12px;
-    width: 60%;
-    
-    right: 4px;
-    position: absolute;
-    z-index: 7;
-}
-.cover-section a{
-    color: #fff;
-    text-decoration: none;
-}
-.cover-title{
-    font-size: 56px;
-    line-height: 1;
-    margin:0;
-}
-.cover-title a{
-    color: #fff;
-    text-decoration: none;
-}
-.header-li a{
-    display:inline;
-    color:rgb(212, 212, 211); 
-}
-.background-article1{
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Twitter-bug-796x418.jpg);
-    width: 400px;
-    height: 200px;
-}
-.second-article{
-    float:left;
-}
-.first-article{
-    width: 800px;
-} */
+ body {
+     margin: 0;
+     background: rgb(226, 226, 225);
+     font-family: 'ARS Maquette',
+         'Helvetica Neue',
+         Arial,
+         sans-serif;
+ }
+ *{
+     box-sizing: border-box;
+ }
