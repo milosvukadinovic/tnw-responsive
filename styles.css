@@ -699,7 +699,7 @@ footer{
     font-size: 13px;
     padding: 2.5em 0;
 }
-.wrapper {
+.wrapper-footer {
     *zoom: 1;
     margin: 0 auto;
     max-width: 1192px;
