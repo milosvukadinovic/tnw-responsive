@@ -82,8 +82,8 @@
          width: 66.66%;
          background: #80f442;
          height: 100%;
-         background: linear-gradient(to right bottom, rgba(224, 81, 15, 1), rgba(22, 22, 22, 0)),
-             url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Older-Person-796x398.jpg);
+         background: linear-gradient(to right bottom, rgb(224, 15, 15), rgba(22, 22, 22, 0)),
+         url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Untitled-design-1-8-796x417.png);
          background-size: cover;
          float: left;
          position: relative;
@@ -143,19 +143,20 @@
             position: relative;
     }
     #first{
-            background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-796x398.jpg);
+            background: linear-gradient(to right bottom, rgb(12, 12, 12), rgba(22, 22, 22, 0)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/sharding-blockchain-cryptocurrency-ethereum-bitcoin-scalability-scaling-796x449.png);
             background-position: center center;
             background-size: cover;
             background-clip: content-box;
             padding-bottom: 5px;
     }
     #second{
-            background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/08/Terminator-3-796x398.jpg);
+            background: linear-gradient(to right bottom, rgb(68, 56, 236), rgba(22, 22, 22, 0)),url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/taiwan-796x448.jpg);
             background-position: center center;
             background-size: cover;
             background-clip: content-box;
     }
     .details{
+        margin-left:5px;
         position: absolute;
         bottom: 7px;
         left: 7px;
@@ -177,6 +178,9 @@
         font-family: Avalon,
         sans-serif;
         margin: 0;
+    }
+    .small div h1{
+        font-size:1.5em;
     }
     .top-h3{
         font-size: 0.9em;
@@ -277,12 +281,13 @@
       
     }
     #cat > li {
-        width: 33.33%;
+        width: 32.33%;
         height: 100%;
         background: #FFF;
         float: left;
         min-height: 700px;
         padding: 10px;
+        margin-top:10px;
     }
 
     #cat h2 {
@@ -293,6 +298,7 @@
         font-weight: 700;
         font-family: Avalon,sans-serif;
         margin-bottom: 24px;
+
     }
 
     .li-img {
@@ -305,10 +311,11 @@
     }
 
     .item-1 {
-        background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/whatsapp-368x276.jpg) no-repeat;
+        background-image: linear-gradient(to top, rgb(12, 12, 12), rgba(22, 22, 22, 0)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/SAP-blockchain-counterfeit-drugs-368x276.jpg);
+        
     }
     .item-2 {
-        background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Apple-Watch-Series-3-hed-368x276.jpg);
+        background-image: linear-gradient(to top, rgb(12, 12, 12), rgba(22, 22, 22, 0)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Deadbeat-Map-368x276.jpg);
     }
     .inside-li {
         position: relative;
@@ -371,6 +378,7 @@
         display: inline-block;
         list-style: none;
         list-style-type: none;
+        margin-right: 10px;
     }
      
         .section-headline::before {
@@ -384,9 +392,12 @@
         width: 4px;
     } 
     .section-headline{
-        border-bottom: 1px solid #eee;
+        font-size: 13px;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        color:rgb(99, 98, 98);
         padding-bottom: 8px;
         margin-left: 20px
+        
     }
     .headlines{
         padding-left: 0;
