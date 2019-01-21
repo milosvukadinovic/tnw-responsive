@@ -403,6 +403,7 @@
       font-size: 12px;
   }
 
+
   .thumb-2 {
       background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/iPhone-X-fast-charge.jpg);
   }
@@ -463,7 +464,6 @@
   .cat-li {
       padding: 6px 0 6px 20px;
       position: relative;
-      border-bottom: 1px solid #EEE;
       width: 100%;
       display: inline-block;
       list-style: none;
@@ -471,24 +471,27 @@
       margin-right: 10px;
   }
 
-  .section-headline {
-      font-size: 13px;
-      border-bottom: 1px solid rgb(255, 255, 255);
-      color: rgb(99, 98, 98);
-      padding-bottom: 8px;
-      margin-left: 20px
-  }
+  
+ .section-headline {
+     font-size: 13px;
+     border-bottom: 1px solid #eee;
+     color: rgb(99, 98, 98);
+     padding-bottom: 8px;
+     margin-left: 20px
+ }
 
-  .section-headline::before {
-      background-color: #F42;
-      border-radius: 50%;
-      content: '';
-      display: inline-block;
-      height: 4px;
-      left: 4px;
-      top: 14px;
-      width: 4px;
-  }
+ .section-headline::before {
+     background-color: #F42;
+     border-radius: 50%;
+     content: '';
+     display: inline-block;
+     height: 5px;
+     left: 5px;
+     top: 14px;
+     width: 5px;
+ }
+
+
 
   .section-latest-title:hover {
       text-decoration: underline;
@@ -511,12 +514,20 @@
       display: inline-block;
       color: #F42;
   }
+  .deals-header h2:hover{
+      color: #000;
+  }
 
   .deals-header a {
       display: inline-block;
       float: right;
-      margin: 10px;
+      margin: 10px 20px 10px 10px;
+      color: #F42;
   }
+  .deals-header a:hover{
+      color: #000;  
+  }
+
 
   .latest-deals li {
       width: 25%;
@@ -772,6 +783,7 @@
         padding: 12px;
     }
  }
+
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (min-width: 600px) and (max-width:1000px) {
