@@ -1,0 +1,879 @@
+
+
+
+
+  /* navbar section */
+  .navbar-ul {
+      background: #131313;
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 32px;
+      max-height: 32px;
+      position: relative;
+      z-index: 2;
+      margin: 0;
+      padding-left: 0px;
+  }
+
+  .navbar-ul li {
+      display: inline;
+      margin-left: 16px;
+  }
+
+  .navbar-ul li a {
+      text-decoration: none;
+      color: hsla(0, 0%, 100%, .6);
+      font-size: 100%;
+  }
+
+  .navbar-ul li a:hover {
+      color: #fff;
+  }
+
+  .navbar-div {
+      background: #ffffff;
+      display: block;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 32px;
+      max-height: 45px;
+      position: relative;
+      z-index: 2;
+      margin: 0;
+      height: 45px;
+  }
+
+  .navbar-div ul {
+      font-family: 'Staatliches', cursive;
+      margin: 0;
+      padding: 5px 0 0 0;
+  }
+
+  .navbar-div ul li {
+      display: inline;
+      padding: 0 12px 0 12px;
+  }
+
+  .navbar-div ul li a {
+      text-decoration: none;
+      color: #aaa;
+      font-size: 16px;
+      letter-spacing: 1px;
+      padding: 18px 12px 0 20px;
+      
+      
+
+  }
+
+  .navbar-div ul li a:hover {
+      color: #000;
+  }
+
+  .nav-icon-right {
+      float: right;
+      color: #aaa;
+      border-left: 1px solid #eee;
+  }
+
+  .nav-icon-right i {
+      height: 16px;
+      width: 16px
+  }
+
+  /* news headline section */
+
+  .top {
+      background: #eaecef;
+      
+      max-height: 560px;
+      padding: 5px;
+  }
+  
+
+  .top-articles {
+      background: #eaecef;
+      height: 75vh;
+      max-height: 560px;
+      padding: 5px;
+  }
+
+  .top-articles::after {
+      content: '';
+      display: block;
+      clear: both;
+  }
+
+  .article-big {
+      width: 66.66%;
+      height: 100%;
+      background: linear-gradient(to right bottom, rgb(224, 15, 15), rgba(22, 22, 22, 0)),
+          url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Untitled-design-1-8-796x417.png);
+      background-size: cover;
+      float: left;
+      position: relative;
+  }
+
+  .smaller-articles {
+      width: 33.33%;
+      height: 100%;
+      float: left;
+  }
+
+  .smaller-articles::after {
+      content: '';
+      display: block;
+      clear: both;
+  }
+
+  .logo-big .date {
+      display: block;
+  }
+
+  .date {
+      position: absolute;
+      right: 7px;
+      top: 7px;
+      color: #fff;
+  }
+
+  .logo-big {
+      background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 5;
+      width: 100%;
+      max-width: 50%;
+      height: 100%;
+      max-height: 112px;
+  }
+
+  .text {
+      position: absolute;
+      bottom: 7px;
+      left: 7px;
+      font-size: inherit;
+  }
+
+  .smaller-articles {
+      width: 33.33%;
+      height: 100%;
+      float: right;
+
+  }
+
+  .small {
+      height: 50%;
+      padding-left: 5px;
+      position: relative;
+  }
+
+  #first {
+      background: linear-gradient(to right bottom, rgb(12, 12, 12), rgba(22, 22, 22, 0)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/sharding-blockchain-cryptocurrency-ethereum-bitcoin-scalability-scaling-796x449.png);
+      background-position: center center;
+      background-size: cover;
+      background-clip: content-box;
+      padding-bottom: 5px;
+  }
+
+  #second {
+      background: linear-gradient(to right bottom, rgb(68, 56, 236), rgba(22, 22, 22, 0)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/taiwan-796x448.jpg);
+      background-position: center center;
+      background-size: cover;
+      background-clip: content-box;
+  }
+
+  .details {
+      margin-left: 5px;
+      position: absolute;
+      bottom: 7px;
+      left: 7px;
+      font-size: inherit;
+  }
+
+  .top-h2 {
+      color: #fff;
+      font-weight: 500;
+      letter-spacing: .04em;
+      line-height: 1.5;
+      font-size: 1em;
+      margin: 0;
+  }
+
+  .top-h1 {
+      color: #fff;
+      font-size: 3em;
+      line-height: 1;
+      font-weight: 700;
+      font-family: Avalon,
+          sans-serif;
+      margin: 0;
+  }
+
+  .small div h1 {
+      font-size: 1.5em;
+  }
+
+  .top-h3 {
+      font-size: 0.9em;
+      line-height: 20px;
+      color: rgba(255, 255, 255, .6);
+  }
+
+  .clock {
+      background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1491314472970) no-repeat;
+      background-position: -160px -160px;
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      vertical-align: text-bottom;
+      margin: 0 5px;
+  }
+
+  .fork {
+      background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1491314472970) no-repeat;
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      background-position: -864px -864px;
+      vertical-align: text-bottom;
+      margin: 0 5px;
+  }
+
+
+  /* Latest News Section */
+  .wrapper {
+      margin: 0 auto;
+      max-width: 1192px;
+      padding: 0 20px;
+  }
+
+  .latest-news {
+      padding-top: 36px;
+  }
+
+  .latest-news h2 {
+      margin-left: 16px;
+      color: #f42;
+  }
+
+  .latest-news h2 a:hover {
+      color: black;
+  }
+
+  .row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+      flex: 0 1 auto;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      margin: 8px;
+      list-style-type: none;
+      padding-left: 0px;
+  }
+
+  .row ul li {
+      padding: 12px 12px 12px 0;
+  }
+
+  .col-max {
+      flex-basis: 25%;
+      max-width: 25%;
+      padding: 8px;
+  }
+
+  .story-image {
+      background-color: #000;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: block;
+      height: 0;
+      overflow: hidden;
+      padding-top: 50%;
+      width: 100%;
+      margin-bottom: 8px;
+      position: relative;
+  }
+
+  .story-title {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 18px;
+      margin-bottom: 1px;
+      overflow-wrap: break-word;
+  }
+
+  .story-title:hover {
+      color: #f42;
+      text-decoration: underline;
+  }
+
+  .story-byline {
+      overflow: hidden;
+      zoom: 1;
+      color: #aaa;
+      font-size: 12px;
+      line-height: 18px;
+      padding-top: 4px;
+      padding-left: 0px;
+  }
+
+  .story-byline li:first-child:hover {
+      color: #000;
+  }
+
+  .story-byline li {
+      display: block;
+      float: left;
+  }
+
+  /* most popular section */
+
+  #cat {
+      padding: 0;
+      margin-top: 20px;
+  }
+
+  #cat>li {
+      width: 32.00%;
+      height: 100%;
+      background: #FFF;
+      min-height: 700px;
+      padding: 10px;
+      margin-top: 10px;
+  }
+
+  #cat h2 {
+      color: #F42;
+      font-size: 28px;
+      line-height: 1.1;
+      letter-spacing: -.015em;
+      font-weight: 700;
+      font-family: Avalon, sans-serif;
+      margin-bottom: 24px;
+  }
+
+  #cat h2:hover {
+      color: #000;
+  }
+
+  .li-img {
+      height: 275px;
+      position: relative;
+      background-size: cover;
+      background-position: center center;
+      top: 0;
+  }
+
+  .item-1 {
+      background-image: linear-gradient(to top, rgb(12, 12, 12), rgba(22, 22, 22, 0)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/SAP-blockchain-counterfeit-drugs-368x276.jpg);
+
+  }
+
+  .item-2 {
+      background-image: linear-gradient(to top, rgb(12, 12, 12), rgba(22, 22, 22, 0)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Deadbeat-Map-368x276.jpg);
+  }
+
+  .inside-li {
+      position: relative;
+      bottom: -45%;
+      color: #FFF;
+      margin-left: 8px;
+      margin-right: 45px;
+  }
+
+  .inside-li h3:hover {
+      text-decoration: underline;
+  }
+
+  .inside-li span {
+      color: hsla(0, 0%, 100%, .6);
+      font-size: 12px;
+  }
+
+
+  .thumb-2 {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/iPhone-X-fast-charge.jpg);
+  }
+
+  .item-3 {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/algae-img-001-368x276.jpg);
+  }
+
+  .thumb-3 {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/autonomous.jpg);
+  }
+
+  .item-4 {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/PETA-368x276.jpg);
+  }
+
+  .thumb-4 {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/08/xJaXOiV-1.jpg);
+  }
+
+  .item-5 {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/what-the-fork-368x276.png);
+  }
+
+  .thumb-5 {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/ecommerce-2140603_1920-1.jpg);
+  }
+
+  .item-6 {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/file-20170831-22397-1vtyfmc-1-368x276.jpg);
+  }
+
+  .thumb-6 {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/pornhub-iphone-apple.jpg);
+  }
+
+  .sub-div {
+      background-color: rgba(255, 68, 34, .06);
+      height: 96px;
+      padding-left: 20px;
+      margin: 4px 0;
+      color: #F42;
+  }
+
+  .latest-thumb {
+      background-position: center center;
+      background-size: cover;
+      height: 96px;
+      width: 96px;
+      display: block;
+      float: right;
+  }
+
+  .thumb-1 {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/01/Trello-hed-2.jpg);
+  }
+
+  .cat-li {
+      padding: 6px 0 6px 20px;
+      position: relative;
+      width: 100%;
+      display: inline-block;
+      list-style: none;
+      
+      margin-right: 10px;
+  }
+
+  
+ .section-headline {
+     font-size: 13px;
+     border-bottom: 1px solid #eee;
+     color: rgb(99, 98, 98);
+     padding-bottom: 8px;
+     margin-left: 20px
+ }
+
+ .section-headline::before {
+     background-color: #F42;
+     border-radius: 50%;
+     content: '';
+     display: inline-block;
+     height: 5px;
+     left: 5px;
+     top: 14px;
+     width: 5px;
+ }
+
+
+
+  .section-latest-title:hover {
+      text-decoration: underline;
+  }
+
+  .headlines {
+      padding-left: 0;
+      list-style: none;
+  }
+
+  /* deals section */
+
+  .deals {
+      margin: 40px 0 40px 0;
+      
+  }
+
+  .deals-header h2 {
+      display: inline-block;
+      color: #F42;
+  }
+  .deals-header h2:hover{
+      color: #000;
+  }
+
+  .deals-header a {
+      display: inline-block;
+      float: right;
+      margin: 10px 20px 10px 10px;
+      color: #F42;
+  }
+  .deals-header a:hover{
+      color: #000;  
+  }
+
+
+  .latest-deals li {
+      width: 25%;
+      padding: 12px;
+  }
+
+  .discount {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      color: #000;
+      display: block;
+      height: 80px;
+      overflow: hidden;
+      pointer-events: none;
+      position: absolute;
+      padding: 8px 8px 0 0;
+      right: 0;
+      top: 0;
+      width: 80px;
+      z-index: 10;
+  }
+
+  .discount div {
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      font-size: 14px;
+      font-weight: 700;
+      left: 8px;
+      position: relative;
+      text-align: center;
+      text-transform: uppercase;
+      top: 20px;
+  }
+
+  .deal-container {
+      position: relative;
+  }
+
+  .story-deal-price {
+      margin-top: 16px;
+  }
+
+  .old-price {
+      text-decoration: line-through;
+      color: #aaa;
+      font-size: 12px;
+  }
+
+  /* footer section */
+  footer {
+
+      width: 104%;
+      float: left;
+      margin-left: -20px;
+
+  }
+
+  .footer-bottom-links {
+      background-color: rgb(29, 29, 29);
+
+      height: 132px;
+      width: 100%;
+  }
+
+  .icon {
+      display: block;
+      background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
+      background-size: 1296px 1296px;
+      background-position: 1296px 1296px;
+      width: 16px;
+      height: 16px;
+  }
+
+  .icon--facebook--light {
+      background-position: -272px -272px;
+  }
+
+  .footer-links-social li .post-body a strong,
+  .footer-links-social li a,
+  .post-body a .footer-links-social li strong {
+      background: #333;
+      border-radius: 50%;
+      display: block;
+      height: 40px;
+      padding: 12px;
+      text-align: center;
+      width: 40px;
+  }
+
+  .footer-links-social li {
+      display: inline-block;
+      margin: 0 5px;
+  }
+
+  .footer-links-social {
+      margin-bottom: 1.5em;
+      padding-top: 20px;
+      text-align: center;
+      margin-top: 0;
+  }
+
+  .icon--youtube--light {
+      background-position: -1280px -1280px;
+  }
+
+  .icon--twitter--light {
+      background-position: -1024px -1024px;
+  }
+
+  .icon--instagram--light {
+      background-position: -416px -416px;
+  }
+
+  .icon--pinterest--light {
+      background-position: -672px -672px;
+  }
+
+  .icon--rss--light {
+      background-position: -816px -816px;
+  }
+
+  .icon--mail--light {
+      background-position: -576px -576px;
+  }
+
+  .footer-links-menu {
+      list-style: none;
+      text-align: center;
+  }
+
+  .footer-links-menu li {
+      display: inline-block;
+  }
+
+  .footer-links-menu li a {
+      color: rgb(187, 186, 186);
+  }
+
+  .footer-legal {
+      background: #000;
+      color: #aaa;
+      font-size: 13px;
+      padding: 2.5em 0;
+  }
+
+  .wrapper-footer {
+      *zoom: 1;
+      margin: 0 auto;
+      max-width: 1192px;
+      padding: 0 20px;
+      text-align: center;
+  }
+
+  .footer-legal span {
+      display: inline-block;
+      text-align: center;
+  }
+
+  .footer-legal-logoStackPath,
+  .footer-legal-logoTNW {
+      display: inline-block;
+      height: 9px;
+      margin-right: 1px;
+      vertical-align: baseline;
+  }
+
+ body {
+     margin: 0;
+     font-family: 'ARS Maquette',
+         'Helvetica Neue',
+         Arial,
+         sans-serif;
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+ h4 {
+     display: block;
+     margin-block-start: 20px;
+     margin-block-end: 20px;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+     font-weight: bold;
+ }
+
+ a {
+     text-decoration: none;
+     color: inherit;
+ }
+
+
+
+.nav-logo>a, .nav-logo>strong {
+    background-color: #f42;
+    background: -webkit-gradient(linear,left top,right bottom,from(#c09),color-stop(85%,#f42));
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    display: block;
+    font-family: 'Staatliches', cursive;
+    padding: 15px 20px;
+    height: 77px;
+    color:white;
+    font-size: 35px;
+    will-change: height;
+    text-align: center;
+    
+}
+.nav-logo {
+    left: 0;
+    top: 0;
+    width: 106px;
+    display: none;
+    float: left;
+    
+    
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    
+    nav{
+        height: 77px;
+        background-color: white;
+    }
+    .nav-logo {
+        
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .navbar-ul1{
+        display: none;
+    }
+    .navbar-ul{
+        display: none;
+    }
+
+    .article-big{
+        width: 100%;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+    .top-h1 {
+        color: #fff;
+        font-size: 1em;
+    }
+    .latest-news h2 a i{
+        margin-top: 20px;
+    }
+    .wrapper-footer{
+        margin-top:10px;
+    }
+    .text h1{
+        font-size: 2em;
+    }
+    .logo-big{
+        height: 50%;
+        top:25px;
+    }
+    .smaller-articles{
+        width: 100%;
+        height: 100%;
+    }
+    .navbar-div{
+        display: none;
+    }
+    
+    .footer-links-social li {
+        margin: 0 8px;
+    }
+
+    .footer-links-menu li {
+        margin: 0 6px;
+    }
+
+    .footer-legal span {
+        display: inline;
+    }
+
+    /* latest news section */
+    .col-max {
+        flex-basis: 100%;
+        max-width: 100%;
+        padding: 8px;
+    }
+
+    /* most popular section */
+    #cat>li {
+        flex-basis: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* latest deals */
+
+    .latest-deals li {
+        width: 100%;
+        padding: 12px;
+    }
+ }
+
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) and (max-width:1000px) {
+    
+    .nav-logo {
+        
+        display: inline-block;
+    }
+    
+ 
+    .navbar-div ul li a {
+        padding: 0 ; 
+    }
+    
+    .footer-links-social li {
+        margin: 0 8px;
+    }
+
+    .footer-links-menu li {
+        margin: 0 6px;
+    }
+
+    .footer-legal span {
+        display: inline;
+    }
+
+    /* latest news section */
+    .col-max {
+        flex-basis: 25%;
+        max-width: 25%;
+        padding: 8px;
+    }
+
+    /* most popular section */
+    #cat>li {
+        flex-basis: 50%;
+        max-width: 50%;
+        min-width: 48%;
+        box-sizing: border-box;
+    }
+
+    /* latest deals */
+
+    .latest-deals li {
+        width: 33%;
+        padding: 12px;
+    }
+ }
+
+
+ 
+
